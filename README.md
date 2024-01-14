@@ -1,41 +1,44 @@
-@deepalilodhi/react-bulk-upload-1
+## @deepalilodhi/react-bulk-upload-1
 A versatile React component for uploading CSV files with a user-friendly interface, supporting both button click and drag-and-drop functionalities.
 
-Installation
+## Installation
 Install the package using npm:
 
-bash
-Copy code
+```
 npm install @deepalilodhi/react-bulk-upload-1
-Usage
+```
+
+## Usage
 Import the Button component in your React application:
 
-javascript
-Copy code
+```
 import { Button } from '@deepalilodhi/react-bulk-upload-1';
-
-// ...
-
 <Button buttonName={'Upload'} uploadUrl={"/bulkupload/ops-tool-upload"}/>
-Features
-User-Friendly Interface: Provides an intuitive button for file upload.
-Drag-and-Drop Support: Allows users to drag and drop files into the designated area.
-Customizable: Easily customize the button text and define the upload URL.
-Example
+```
 
-Include a screenshot or gif here showcasing how the Button component looks and behaves when implemented.
 
-Props
-buttonName (required)
+
+## Features
+
+- User-Friendly Interface: Provides an intuitive button for file upload.
+- Drag-and-Drop Support: Allows users to drag and drop files into the designated area.
+- Customizable: Easily customize the button text and define the upload URL.
+- Example
+<img src="./assets/csv-file-upload.png" />
+
+
+## Props
+- buttonName (required)
 Type: string
 Description: The text to be displayed on the upload button.
-uploadUrl (required)
+- uploadUrl (required)
 Type: string
 Description: The URL where the uploaded file will be sent.
-Contributing
+
+## Contributing
 Feel free to contribute by opening issues or submitting pull requests. Please follow our Contribution Guidelines.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 
