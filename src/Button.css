@@ -1,0 +1,208 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #7073f0;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: "poopins","Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+
+  button:hover {
+    background-color: #6265f6;
+  }
+  
+  button:active {
+    background-color: #7677d3; 
+  }
+  
+
+.upload-form {
+  background-color: #ffffff; /* Background color for the upload form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px; /* Adjust the width as needed */
+  cursor: pointer;
+  border: 1.2px dashed rgb(191, 152, 230); /* Lavender border around the dropzone area */
+}
+
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.file-upload-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: lavender; /* Lavender icon color */
+}
+
+.dropzone p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style for the dropped file area */
+.dropzone.active {
+  border: 2px dashed rgb(191, 152, 230); /* Border color when dragging over */
+  background-color: rgb(227, 198, 255); /* Background color when dragging over */
+}
+
+
+
+.uploaded-data {
+  margin-top: 20px;
+}
+
+
+.uploaded-data {
+  margin-top: 20px;
+  color:green;
+}
+
+
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.upload-success {
+  text-align: center;
+  font-size: 1.5rem;
+  color: green;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.center div{
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.fcheckmark {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  box-shadow: inset 0px 0px 0px red;
+  animation: ffill .4s ease-in-out .4s forwards, fscale .3s ease-in-out .9s both;
+}
+
+.fcheckmark_circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: red;
+  fill: none;
+  animation: fstroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.fcheckmark_check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: fstroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes fstroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fscale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes ffill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px red;
+  }
+}
+
+
+.custom-loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(farthest-side,#766DF4 94%,#0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%,#766DF4);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation:s3 1s infinite linear;
+}
+
+@keyframes s3{ 
+  100%{transform: rotate(1turn)}
+}
+
+
+.scheckmark__circle{
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #71f662;
+  fill: none;
+  animation: sstroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) 
+  forwards}
+  
+  .scheckmark{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    margin: 10% auto;
+    box-shadow: inset 0px 0px 0px #64eb58;
+    animation: sfill .4s ease-in-out .4s forwards, sscale .3s ease-in-out .9s both}
+    
+    .scheckmark__check{
+      transform-origin: 50% 50%;
+      stroke-dasharray: 48;
+      stroke-dashoffset: 48;
+      animation: sstroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards
+    }
+      
+      
+      @keyframes sstroke{
+        100%{stroke-dashoffset: 0}
+      }
+      
+      @keyframes sscale{
+        0%, 100%{transform: none}
+        50%{transform: scale3d(1.1, 1.1, 1)}}
+        
+      @keyframes sfill{
+        100%
+        {box-shadow: inset 0px 0px 0px 30px #54f276}
+      }
