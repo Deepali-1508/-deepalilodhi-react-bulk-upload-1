@@ -29,7 +29,7 @@ import { Button } from '@deepalilodhi/react-bulk-upload-1';
 - Drag-and-Drop Support: Allows users to drag and drop files into the designated area.
 - Customizable: Easily customize the button text and define the upload URL.
 - Example
-<img src="./assets/csv-file-upload.png" />
+<img src="./src/assets/csv-file-upload.png" />
 
 
 ## Props
