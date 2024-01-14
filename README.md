@@ -5,7 +5,12 @@ A versatile React component for uploading CSV files with a user-friendly interfa
 Install the package using npm:
 
 ```
-npm install @deepalilodhi/react-bulk-upload-1
+npm install @deepalilodhi/react-bulk-upload-1@1.9.0
+```
+- Supportive package
+```
+npm install axios
+npm install react-dropzone
 ```
 
 ## Usage
