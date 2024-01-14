@@ -18,7 +18,7 @@ Import the Button component in your React application:
 
 ```
 import { Button } from '@deepalilodhi/react-bulk-upload-1';
-<Button buttonName={'Upload'} uploadUrl={"/bulkupload/ops-tool-upload"}/>
+<Button buttonName={'Upload'} uploadUrl={"/your-url or api route"}/>
 ```
 
 
