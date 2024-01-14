@@ -41,7 +41,7 @@ Type: string
 Description: The URL where the uploaded file will be sent.
 
 ## Contributing
-Feel free to contribute by opening issues or submitting pull requests. Please follow our Contribution Guidelines.
+Feel free to contribute by opening issues or submitting pull requests on [@deepalilodhi/react-bulk-upload-1](https://github.com/Deepali-1508/-deepalilodhi-react-bulk-upload-1). Please follow our Contribution Guidelines.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
