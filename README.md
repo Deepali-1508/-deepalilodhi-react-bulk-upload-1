@@ -7,7 +7,7 @@ Install the package using npm:
 ```
 npm install @deepalilodhi/react-bulk-upload-1@1.9.0
 ```
-- Supportive package
+- Supportive package (also install)
 ```
 npm install axios
 npm install react-dropzone
